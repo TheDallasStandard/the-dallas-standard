@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The Dallas Standard — Breaking news, Dallas, national and world coverage, transportation and technology.">
+<title>The Dallas Standard | News</title>
+<style>
+:root{--ink:#111;--red:#c8202f;--gold:#e8b83e;--paper:#f5f4f0;--line:#d7d5cf}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif}
+a{color:inherit;text-decoration:none}.topline{background:#111;color:#fff;padding:8px 4%;font-size:11px;letter-spacing:1.3px;text-transform:uppercase;display:flex;justify-content:space-between;gap:12px}
+header{background:#fff;border-bottom:4px solid #111;padding:20px 4% 12px}
+.masthead{display:flex;align-items:center;justify-content:center;gap:14px;text-align:center}
+.globe{width:52px;height:52px;border:3px solid var(--red);border-radius:50%;display:grid;place-items:center;color:var(--red);font-size:28px;font-weight:900}
+.brand{font-family:Impact,'Arial Narrow',sans-serif;font-stretch:condensed;font-size:clamp(32px,6vw,62px);font-weight:900;letter-spacing:-1.5px;line-height:.95}
+.tagline{text-align:center;text-transform:uppercase;font-size:10px;letter-spacing:3px;margin-top:9px;color:#555}
+nav{display:flex;justify-content:center;gap:clamp(12px,3vw,34px);flex-wrap:wrap;padding:14px 4%;background:#fff;border-bottom:1px solid var(--line);font-size:12px;font-weight:800;text-transform:uppercase}
+nav a:hover{color:var(--red)}
+.breaking{background:var(--red);color:#fff;padding:11px 4%;font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:.5px}
+.breaking b{background:#111;padding:5px 8px;margin-right:10px}
+main{max-width:1180px;margin:26px auto;padding:0 20px}
+.kicker{font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:1.5px;color:var(--red)}
+.hero{display:grid;grid-template-columns:1.45fr 1fr;gap:24px;background:#fff;border:1px solid var(--line);padding:20px}
+.hero-art{min-height:300px;background:linear-gradient(135deg,#222,#555 55%,#a51d2b);display:flex;align-items:end;padding:24px;color:white}
+.hero-art span{font-family:Impact,'Arial Narrow',sans-serif;font-size:clamp(32px,5vw,58px);line-height:.95;text-transform:uppercase;max-width:500px}
+h1{font-family:Georgia,serif;font-size:clamp(28px,4vw,43px);line-height:1.05;margin:12px 0}
+.deck{font-size:16px;line-height:1.5;color:#444}
+.side-story{border-bottom:1px solid var(--line);padding:0 0 16px;margin:0 0 16px}
+.side-story:last-child{border:0;margin:0;padding:0}
+.side-story h3{font-family:Georgia,serif;font-size:20px;margin:7px 0}
+.section-head{display:flex;align-items:center;gap:14px;margin:34px 0 16px;border-bottom:3px solid #111;padding-bottom:9px}
+.section-head h2{font-family:Impact,'Arial Narrow',sans-serif;font-size:27px;text-transform:uppercase;margin:0}
+.section-head:after{content:"";height:5px;background:var(--gold);flex:1}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:#fff;border:1px solid var(--line);padding:17px;min-height:160px}
+.card h3{font-family:Georgia,serif;font-size:21px;line-height:1.15;margin:9px 0}
+.card p{font-size:13px;color:#555;line-height:1.45}
+.placeholder{background:#e5e2da;height:105px;display:grid;place-items:center;color:#777;font-size:11px;text-transform:uppercase;letter-spacing:1px}
+.note{margin:28px 0;padding:14px;background:#fff7df;border-left:4px solid var(--gold);font-size:13px;color:#4c432b}
+footer{margin-top:45px;background:#111;color:#fff;padding:30px 4%;text-align:center}
+footer strong{font-family:Impact,'Arial Narrow',sans-serif;font-size:27px;letter-spacing:.5px}
+footer p{font-size:12px;color:#bbb}
+@media(max-width:760px){.hero{grid-template-columns:1fr}.hero-art{min-height:220px}.cards{grid-template-columns:1fr}.topline{font-size:9px}nav{gap:12px;font-size:10px}}
+</style>
+</head>
+<body>
+<div class="topline"><span>Independent news • Dallas, Texas</span><span>Facts. Context. Perspective.</span></div>
+<header>
+  <div class="masthead"><div class="globe" aria-hidden="true">◎</div><div class="brand">THE DALLAS STANDARD</div></div>
+  <div class="tagline">The news. Without the noise.</div>
+</header>
+<nav>
+  <a href="#breaking">Breaking</a><a href="#dallas">Dallas</a><a href="#national">National</a><a href="#world">World</a><a href="#transport">Transportation</a><a href="#technology">Technology</a>
+</nav>
+<div class="breaking" id="breaking"><b>Breaking News</b> Latest headlines and developing stories</div>
+<main>
+  <section class="hero">
+    <div>
+      <div class="hero-art"><span>THE STORIES SHAPING OUR WORLD</span></div>
+      <div style="padding-top:17px"><div class="kicker">Top story • Editor's desk</div><h1>Stay informed. Stay ahead.</h1><p class="deck">The Dallas Standard brings together local reporting, national developments and global headlines in one clear, modern news destination.</p></div>
+    </div>
+    <div>
+      <div class="kicker" style="margin-bottom:13px">Latest updates</div>
+      <article class="side-story"><div class="kicker">Dallas</div><h3>Local news and developments from across North Texas</h3><p class="deck" style="font-size:13px">Coverage of the people, communities and decisions shaping the Dallas–Fort Worth area.</p></article>
+      <article class="side-story"><div class="kicker">National &amp; World</div><h3>Major headlines from the United States and around the globe</h3><p class="deck" style="font-size:13px">Important events, policy developments and international affairs.</p></article>
+      <article class="side-story"><div class="kicker">Transportation &amp; Technology</div><h3>Updates on travel, infrastructure and the technology sector</h3><p class="deck" style="font-size:13px">A closer look at the systems and innovations changing everyday life.</p></article>
+    </div>
+  </section>
+  <div class="note"><strong>Website setup:</strong> This is the starter publication layout. Replace these sample headlines with verified reporting before publishing. Live news feeds and an editor login are not connected yet.</div>
+  <section id="dallas"><div class="section-head"><h2>Dallas &amp; North Texas</h2></div><div class="cards">
+    <article class="card"><div class="placeholder">Local coverage</div><h3>What's happening across Dallas–Fort Worth</h3><p>Community news, public safety, business and local government.</p></article>
+    <article class="card"><div class="placeholder">Community</div><h3>People and places shaping North Texas</h3><p>Stories from neighborhoods and communities throughout the region.</p></article>
+    <article class="card"><div class="placeholder">Business</div><h3>Business and economic developments</h3><p>Updates on the local economy, jobs and major projects.</p></article>
+  </div></section>
+  <section id="national"><div class="section-head"><h2>National News</h2></div><div class="cards">
+    <article class="card"><div class="placeholder">United States</div><h3>Policy, government and national affairs</h3><p>Clear coverage of important developments across the country.</p></article>
+    <article class="card"><div class="placeholder">Economy</div><h3>Markets, jobs and the economy</h3><p>News affecting households, businesses and communities.</p></article>
+    <article class="card"><div class="placeholder">Public life</div><h3>Issues that matter to Americans</h3><p>Context and reporting on major national conversations.</p></article>
+  </div></section>
+  <section id="world"><div class="section-head"><h2>World News</h2></div><div class="cards">
+    <article class="card"><div class="placeholder">Global affairs</div><h3>Developments around the world</h3><p>International news, diplomacy and events.</p></article>
+    <article class="card"><div class="placeholder">Security</div><h3>Global security and defense</h3><p>Coverage of international security developments.</p></article>
+    <article class="card"><div class="placeholder">The Pacific</div><h3>Asia-Pacific and beyond</h3><p>Regional stories with global significance.</p></article>
+  </div></section>
+  <section id="transport"><div class="section-head"><h2>Transportation</h2></div><div class="cards">
+    <article class="card"><div class="placeholder">Aviation</div><h3>Airlines, airports and aviation</h3><p>Travel disruptions, industry news and aviation developments.</p></article>
+    <article class="card"><div class="placeholder">Rail &amp; roads</div><h3>Rail, roads and infrastructure</h3><p>Transportation projects and public infrastructure updates.</p></article>
+    <article class="card"><div class="placeholder">Transit</div><h3>Mobility and public transportation</h3><p>Updates on transit systems and the future of mobility.</p></article>
+  </div></section>
+  <section id="technology"><div class="section-head"><h2>Technology</h2></div><div class="cards">
+    <article class="card"><div class="placeholder">Innovation</div><h3>Technology shaping tomorrow</h3><p>Developments in software, devices and emerging technologies.</p></article>
+    <article class="card"><div class="placeholder">Cybersecurity</div><h3>Cybersecurity and digital safety</h3><p>Important updates on outages, data and online security.</p></article>
+    <article class="card"><div class="placeholder">Science</div><h3>Science and innovation</h3><p>Research and discoveries with real-world impact.</p></article>
+  </div></section>
+</main>
+<footer><strong>THE DALLAS STANDARD</strong><p>Independent news • Dallas, Texas</p><p>© 2026 The Dallas Standard. All rights reserved.</p></footer>
+</body></html>
